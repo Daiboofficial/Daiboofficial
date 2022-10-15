@@ -46,7 +46,7 @@ nav ul{
 }
 
 #welcome-section{
-
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -69,6 +69,7 @@ h1{
   text-align: center;
 }
 #projects{
+    width: 100%;
     text-align: center;
     padding: 1rem;
     background: grey;
@@ -172,6 +173,7 @@ svg{
     text-align: center;
   }
   #welcome-section p{
+    width: 100%;
     font-size: 1.4rem;
     text-align: center;
   }
@@ -195,7 +197,9 @@ svg{
     margin-bottom: 10px;
 
   }
-
+#projects{
+  width: 100%;
+}
 
 }
 
@@ -215,6 +219,7 @@ svg{
     text-align: center;
   }
   #welcome-section p{
+    width: 100%;
     font-size: 0.7rem;
     text-align: center;
   }
@@ -238,5 +243,9 @@ svg{
     margin-bottom: 10px;
 
   }
+
+#projects{
+  width: 100%;
+}
 
 }
