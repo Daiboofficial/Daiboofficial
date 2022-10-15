@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+width: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 100, 255, 0.9);
+  color: white;
+  border-bottom: 2px solid white;
+}
+.image-div{
+  float: left;
+  margin-left: 20px;
+}
+  #header-img{
+    width: 250px;
+    height: 40px;
+    border: 2px solid blue;
+
+  }
+  .nav-bar{
+    margin-right: 30px;
+  }
+  nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-link{
+    list-style: none;
+  }
+  nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+nav li  a:hover{
+    background-color: grey;
+  }
+.main{
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 100, 255, 0.9);
+}
+h1{
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#email{
+  width:100%;
+  height: 1.5rem;
+  margin: 2rem;
+  padding-left: .5rem;
+  margin-left: 3px;
+}
+.btn{
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(0, 100, 255, 1);
+}
+.containers{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  height:auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+#tracking, #truck, #location{
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color:;
+  margin: 20px;
+}
+.icon{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  margin-left: 70px;
+}
+#how-it-works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#offers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 20px;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  text-align: center;
+  background-color: rgba(0, 70, 200, 1);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 170, 1);
+}
+.services:hover{
+  cursor: pointer;
+  transform: scale(.98);
+  transition: 1s;
+}
+.services, p{
+  color: white;
+}
+
+.pik1, .pik2{
+  width: 100px;
+  height:130px;
+}
+
+.pik3{
+  width: 100px;
+  height:150px;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+footer ul{
+  display: flex;
+}
+footer li{
+  list-style: none;
+}
+footer li a{
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  color: white;
+  margin: 10px;
+}
+footer .span{
+  color: black;
+}
+/*
+@media (max-width: 500px) {
+ #header-img{
+   padding: 0px;
+  margin-top: 0px;
+ }
+}*/
+
+@media (max-width: 650px) {
+  nav ul{
+    flex-direction: column;
+  }
+  nav ul li{
+    text-align: center;
+  }
+  .image-div{
+  }
+  #header-img{
+    width: 120px;
+    height: 100px;
+  }
+  iframe{
+    width: 70%;
+    height: 200px;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+  #header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav{
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  nav ul li {
+    text-align: center;
+    margin-right: 0px;
+  }
+  #header-img{
+    width: 250px;
+    height: 40px;
+    border: 2px solid blue;
+
+  }
+
+}
+
+@media (max-width: 600px) {
+  #offers {
+    flex-wrap: wrap;
+  }
+  .containers, .icon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+  .containers{
+    border: none;
+  }
+  .main, h1{
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-family: monospace;
+  }
+  .foot{
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+  }
+  #email{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .btn{
+    margin-top: 5px;
+  }
+
+}
