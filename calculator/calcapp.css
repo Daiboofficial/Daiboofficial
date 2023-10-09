@@ -1,0 +1,67 @@
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 1);
+  max-width: 300px;
+  max-height: 600px;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+}
+.dialogbox{
+  width: 97%;
+  height: 8rem;
+  background-color:inherit;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  color: white;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.btn{
+  width: 65px;
+  height: 65px;
+  background-color: #2e2d2c;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  }
+
+  .zero{
+    width: 130px;
+    border-radius: 35px 35px;
+    margin-left: 8px;
+  }
+
+ .sub, .multiply,.equate,.divide, .add{
+  background-color: #ff9a03;
+}
+ .add:active{
+   background-color: white;
+ }
+.clear,.plusminors,.percentage{
+  background-color: #b3b0af;
+}
